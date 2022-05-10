@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+
+
+<!--CABECERA DEL DOCUMENTO-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Descripción" content="">
+  <meta name="Autor" content="Daniel Alexander Prado Amoretty">
+  <meta name="Generador" content="DKLAR 1.0.0">
+  <title>Spring Annotations</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/headers/">
+
+
+  <!-- Scripts -->
+  <script src="../SpringAnnotationsWeb/assets/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!--Estilos Css-->
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/headers.css" rel="stylesheet">
+
+</head>
+
+<!--CUERPO DEL DOCUMENTO-->
+
+<body>
+
+  <main>
+
+    <!--Cabecera del Sitio-->
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+
+        <a href="#" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"></svg>
+          <img src="img/Spring.png" alt="" width="50">
+          <h1 class="display-6 fw-bold  d-flex flex-wrap justify-content-center" style="color: green; text-align: center;">Anotaciones de Spring Framework</h1>       
+        </a>  
+      </div>
+      <div class="container d-flex flex-wrap justify-content-center">
+        <span class="fs-5" style="color:grey ; font:italic;">Toda esta información la puede encontrar en <a href="https://spring.io" style="color:grey ; font:italic;">spring.io</a></span>
+      </div>
+    </header>
+
+    <!---Divisior-->
+   
+
+    <!-- HEROES CONTAINER-->
+    <div class="container my-5">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h1 class="display-4 fw-bold lh-1">¿Qué podemos hacer con Spring?</h1>
+          <figure>
+            <blockquote class="blockquote">
+              <p>“Usamos muchas de las herramientas que vienen con Spring Framework y obtenemos los beneficios de tener
+                muchas soluciones listas para usar, y no tener que preocuparnos por escribir una tonelada de código
+                adicional, por lo que realmente nos ahorra algo de tiempo y energía."</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              SEAN GRAHAM, LÍDER DE TRANSFORMACIÓN DE APLICACIONES
+              <cite title="Source Title">DICK’S SPORTING GOODS</cite>
+            </figcaption>
+          </figure>
+
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Más Información</button>
+          </div>
+        </div>
+
+        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="img/SpringIo.png" alt="" width="720">
+        </div>
+      </div>
+    </div>
+
+    <!--  CUSTOM CARDS-->
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="display-6 fw-bold lh-1" style="color: darkslategray;" >Categorías</h2>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <!---Spring Framework -->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-1.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Spring Framework</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Spring Framework es el proyecto central dentro de Spring.</small>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--REST-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-2.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">REST</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Spring Data REST es un proyecto que está dentro del paraguas del proyecto Spring Data, que es más general, que nos va a facilitar la creación de la API REST de servicios web REST basados en hipermedios, y lo hace construyéndolos sobre repositorios de Spring Data.</small>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--HATEOAS-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-3.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">HATEOAS</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+               
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Hypermedia as the Engine of Application State (HATEOAS) es un enfoque arquitectónico para mejorar la usabilidad de las API REST para las aplicaciones que consumen las API.</small>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Session-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-1.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Session</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Spring Session proporciona una API e implementaciones para administrar la información de la sesión de un usuario, al tiempo que hace que sea trivial admitir sesiones en clúster sin estar vinculado a una solución específica del contenedor de la aplicación.</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Boot-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-2.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Spring Boot</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Spring Boot es una tecnología que nos permite crear aplicaciones autocontenidas, con esto nos podemos olvidar de la arquitectura y enfocarnos únicamente en desarrollo, delegando a Spring Boot labores como configuración de dependencias, desplegar nuestro servicio o aplicación a un servidor de aplicaciones y enfocarnos únicamente en crear nuestro código.</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <!--Integration-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-3.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Spring Integration</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Spring Integration es un marco de código abierto para la integración de aplicaciones empresariales. Es un marco ligero que se basa en el marco central de Spring.</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Cloud-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-1.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Spring Cloud</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>El conjunto de proyectos de Spring Cloud contiene muchos de los servicios que necesita para que sus aplicaciones se ejecuten en la nube.</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Data-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-2.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Spring Data</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Spring Data es uno de los frameworks que se encuentra dentro de la plataforma de Spring. Su objetivo es simplificar al desarrollador la persistencia de datos contra distintos repositorios de información.</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Batch-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-3.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Spring Batch</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Spring Batch es un marco de código abierto para el procesamiento por lotes. Es una solución ligera e integral diseñada para permitir el desarrollo de aplicaciones por lotes robustas, que a menudo se encuentran en los sistemas empresariales modernos.</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--BoAspect-oriented Programmingot-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-1.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Programación Orientada a Aspectos</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                    <small>Spring incluye un conjunto de anotaciones para trabajar con Programación Orientada a Aspectos (AOP).</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Integration Testing-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-2.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Pruebas de integración</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Spring incluye un conjunto de anotaciones para trabajar con pruebas de integración.</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--JMX-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-3.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">JMX</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Spring incluye un conjunto de anotaciones para trabajar con Java Managed Extensions (JMX).</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Task Execution and Scheduling-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-1.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Ejecución y Programación de Tareas</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Spring incluye un conjunto de anotaciones para respaldar la ejecución y programación de tareas.</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Cache Abstraction-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-2.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Abstracción de Caché</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Spring incluye un conjunto de anotaciones para trabajar con el almacenamiento en caché.</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Other-->
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+            style="background-image: url('img/Fondo-Verde-3.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Otros</h2>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="img/Spring.png" alt="Bootstrap" width="32" height="32"
+                    class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em">
+                    <use xlink:href="#calendar3" /></svg>
+                  <small>Spring incluye algunas otras anotaciones que no encajan en las categorías anteriores.</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FOOTER-->
+    <div class="container">
+      <footer class="row row-cols-5 py-5 my-5 border-top">
+        <div class="col">
+          <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          </a>
+          <p class="text-muted">&copy; Todos los Derechos Reservados D'KLAR Estudio 2022</p>
+        </div>
+    
+        <div class="col">
+    
+        </div>
+    
+        <div class="col">
+          <h5>Página Principal</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Inicio</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Categorías</a></li>
+          </ul>
+        </div>
+    
+        <div class="col">
+          <h5>Documentación</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="https://spring.io" class="nav-link p-0 text-muted">Spring.io</a></li>
+            <li class="nav-item mb-2"><a href="https://docs.spring.io/spring-framework/docs/current/reference/html/index.html" class="nav-link p-0 text-muted">Documentación Oficial Spring</a></li>
+            <li class="nav-item mb-2"><a href="https://github.com/danielquincy/spring-annotations" class="nav-link p-0 text-muted">GitHub</a></li>
+          </ul>
+        </div>
+    
+
+
+      </footer>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
